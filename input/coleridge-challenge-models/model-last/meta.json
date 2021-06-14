@@ -1,0 +1,51 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.0.6,<3.1.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"df3444421",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null
+  },
+  "labels":{
+    "transformer":[
+
+    ],
+    "ner":[
+      "DATASET"
+    ]
+  },
+  "pipeline":[
+    "transformer",
+    "ner"
+  ],
+  "components":[
+    "transformer",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_per_type":{
+      "DATASET":{
+        "p":0.8220968982,
+        "r":0.7379199264,
+        "f":0.777737359
+      }
+    },
+    "ents_f":0.777737359,
+    "ents_p":0.8220968982,
+    "ents_r":0.7379199264,
+    "transformer_loss":397.6259117876,
+    "ner_loss":958.7693673558
+  }
+}
